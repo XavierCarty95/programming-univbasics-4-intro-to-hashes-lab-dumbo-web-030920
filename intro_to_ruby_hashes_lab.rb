@@ -6,8 +6,8 @@ end
 def my_hash
   # return a valid hash with any key/value pair of your choice
 hash = { :name => "Xavier"}
-  
-  
+
+
 end
 
 def pioneer
@@ -22,7 +22,7 @@ end
 
 def my_hash_creator(key, value)
   # return a hash that includes the key and value parameters passed into this method
-  hash = Hash.new 
+  hash = Hash.new
   hash[key] = value
   hash
 end
@@ -35,12 +35,12 @@ end
 def update_counting_hash(hash, key)
   # given a hash an a key as parameters, return an updated hash
    if hash[key]
-     hash[key] += 1 
+     hash[key] += 1
      hash
    else 
      hash[key] = 1
      hash
-     
+
    end
 
   # if the provided key is not present in the hash, add it and assign it to the value of 1
